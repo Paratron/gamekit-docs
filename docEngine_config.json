@@ -1,0 +1,25 @@
+{
+    "title": "Gamekit",
+    "basePath": "/projects/canvas/gamekit-docs/",
+    "homepageKey": "introduction",
+    "homepageType": "article",
+    "cache": false,
+    "theme": "flatbeat",
+    "defaultLanguage": "en",
+    "disqus": false,
+    "modules": {
+        "PrettifySources": {
+            "skin": "desert",
+            "linenums": false
+        },
+        "Reference": {
+            "github": "Paratron/cosmo",
+            "branch": "master",
+            "quickNavigation": [
+                "property",
+                "method"
+            ],
+            "definitionTag": "h3"
+        }
+    }
+}

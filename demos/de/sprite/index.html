@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Gamekit demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <script>
+        document.onload = function(){
+            document.getElementsByTagName('canvas')[0].height = window.innerHeight;
+            document.getElementsByTagName('canvas')[0].width = window.innerWidth;
+        };
+    </script>
+    <script src="gamekit.js"></script>
+</body>
+</html>
