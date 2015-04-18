@@ -1,0 +1,38 @@
+{
+	"core": {
+		"title": "Gamekit Core",
+		"description": "Contains the main functionality.",
+		"dependencies": [],
+		"mandatory": true
+	},
+	"assetloader": {
+		"title": "Asset Loader",
+		"description": "Fetches all resources your game needs.",
+		"dependencies": []
+	},
+	"group": {
+		"title": "Sprite Group",
+		"description": "Grouping sprites to move and rotate them together.",
+		"dependencies": ["sprite"]
+	},
+	"input": {
+		"title": "Input",
+		"description": "Fetching pointer and keyboard input.",
+		"dependencies": []
+	},
+	"label": {
+		"title": "Label",
+		"description": "Renders text labels",
+		"dependencies": []
+	},
+	"spritemap": {
+		"title": "SpriteMap",
+		"description": "Support for loading and using spritemaps.",
+		"dependencies": []
+	},
+	"spriteatlas": {
+		"title": "SpriteAtlas",
+		"description": "Support for loading and using sprite atlases.",
+		"dependencies": []
+	}
+}

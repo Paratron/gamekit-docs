@@ -1,0 +1,70 @@
+.moduleList{
+    font-size: 0;
+    position: relative;
+}
+
+.moduleList .keeper{
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+	padding-bottom: 20px;
+    vertical-align: top;
+}
+
+.moduleList .wideKeeper{
+	width: 100%;
+}
+
+.moduleList .module{
+    background: #fff;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.13)
+}
+
+.moduleList .module p{
+    margin: 0;
+	margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.moduleList .module label{
+	display: block;
+	cursor: pointer;
+}
+
+.moduleList .follow{
+	height: 85px;
+	margin-top: 3px;
+	border: #bbb dashed 3px;
+	box-sizing: border-box;
+	line-height: 80px;
+	color: #bbb;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.downloadButton{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	background: #eef;
+	border-left: #ddf solid 5px;
+	padding: 10px;
+	padding-right: 20px;
+}
+
+.downloadButton:hover{
+	color: #000;
+	background: #ddf;
+	border-left: #adadc8 solid 5px;
+}
+
+.light{
+	padding-left: 10px;
+	color: #bbb;
+}

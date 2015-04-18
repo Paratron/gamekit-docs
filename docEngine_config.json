@@ -1,8 +1,8 @@
 {
     "title": "Gamekit",
-    "basePath": "/projects/canvas/gamekit-docs/",
+    "basePath": "/gamekit/gamekit-docs-viewer/",
     "homepageKey": "introduction",
-    "homepageType": "article",
+    "homepageType": "page",
     "cache": false,
     "theme": "flatbeat",
     "defaultLanguage": "en",

@@ -1,0 +1,63 @@
+{
+	"core": {
+		"title": "Gamekit Core",
+		"description": "Contains the main functionality.",
+		"dependencies": [],
+		"mandatory": true,
+		"files": ["Core.js", "Helpers.js", "Layers.js", "Modules.js", "Promises.js", "Sprite.js"]
+	},
+	"assetloader": {
+		"title": "Asset Loader",
+		"description": "Fetches all resources your game needs.",
+		"dependencies": [],
+		"files": ["Assetloader.js"]
+	},
+	"group": {
+		"title": "Sprite Group",
+		"description": "Grouping sprites to move and rotate them together.",
+		"dependencies": [],
+		"files": ["Group.js"]
+	},
+	"input": {
+		"title": "Input",
+		"description": "Fetching pointer and keyboard input.",
+		"dependencies": [],
+		"files": ["Input.js"]
+	},
+	"label": {
+		"title": "Label",
+		"description": "Renders text labels",
+		"dependencies": [],
+		"files": ["Label.js"]
+	},
+	"spritemap": {
+		"title": "SpriteMap",
+		"description": "Support for loading and using spritemaps.",
+		"dependencies": [],
+		"files": ["SpriteMap.js"]
+	},
+	"spriteatlas": {
+		"title": "SpriteAtlas",
+		"description": "Support for loading and using sprite atlases.",
+		"dependencies": [],
+		"files": ["SpriteAtlas.js"]
+	},
+	"tilelayer": {
+		"title": "TileGrid",
+		"description": "Render tilebased grids for oldschool games",
+		"dependencies": ["spritemap"],
+		"files": ["TileGrid.js"]
+	},
+	"tilemap": {
+		"title": "TileMap",
+		"description": "Based on TileGrid - capable of loading Tiled Maps",
+		"dependencies": ["tilelayer"],
+		"files": ["TileMap.js"]
+	},
+	"particles": {
+		"title": "Particle Generator",
+		"description": "Simple particle effects",
+		"dependencies": [],
+		"files": ["Particles.js"]
+	}
+}
